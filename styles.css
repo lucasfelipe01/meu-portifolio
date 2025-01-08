@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+header p {
+  margin-bottom: 1em;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 2em;
+  color: #fff;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  cursor: pointer;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+/* Estilos para dispositivos menores */
+@media (max-width: 768px) {
+  .menu-icon {
+    display:contents;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #333;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    margin-top: 10px; /* Distância abaixo do cargo */
+  }
+
+  #navbar a {
+    color: #fff;
+    padding: 0.5em;
+  }
+
+  #navbar.active {
+    max-height: 300px; /* Define a altura máxima quando o menu está ativo */
+    opacity: 1;
+  }
+}
+
+/* Seções do site */
+section {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: #fff;
+}
+
+#contact p i {
+  color: #0077b5;
+  margin-right: 8px;
+}
+
+#contact p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+video {
+  width: 100%;
+  
+  border-radius: 8px;
+  display: block;
+  margin: 5px auto 0 auto; 
+  padding: 0;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  header p {
+    font-size: 0.9em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  #contact p {
+    font-size: 0.9em;
+  }
+
+}
+
+.profile-picture {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #333;
+}
+
+.imagens{
+  width: 100%;
+  border-radius: 8px;
+}
