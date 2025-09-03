@@ -71,51 +71,81 @@
           <strong>Objetivo:</strong> Colaborar em iniciativas desafiadoras que
           promovam inovação e eficiência.
         </p>
+        <div class="download-cv">
+  <a href="assets/CV_Lucas_Felipe_2025.pdf" download>
+    <button>📄 Baixar Currículo</button>
+  </a>
+</div>
+
       </div>
     </section>
 
     <section id="projects">
-      <h2>Projetos</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <div class="project-content">
-            <h3>Pipeline de dados IoT com Docker e Python</h3>
-            <p>
-              Pipeline de dados que processa leituras de temperatura de
-              dispositivos IoT, armazena em PostgreSQL e exibe em um dashboard
-              interativo com Streamlit e Plotly.
-            </p>
-          </div>
-          <img src="assets/img/pipeline.png" class="project-image" />
-        </div>
+  <h2>Projetos</h2>
+  <div class="projects-container">
 
-        <div class="project-card">
-          <div class="project-content">
-            <h3>Clone da Página Coca-Cola</h3>
-            <p>Pequeno projeto responsivo utilizando apenas HTML & CSS.</p>
-          </div>
-          <img src="assets/img/COCA.png" class="project-image" />
-        </div>
-
-        <div class="project-card">
-          <div class="project-content">
-            <h3>Informações do Clima</h3>
-            <p>
-              Projeto desenvolvido para exibir condições climáticas de qualquer
-              local, incluindo imagens e informações detalhadas.
-            </p>
-          </div>
-          <video
-            src="assets/video/clima_video.mp4"
-            autoplay
-            loop
-            muted
-            playsinline
-            class="project-video"
-          ></video>
-        </div>
+    <!-- Projeto 1 -->
+    <div class="project-card">
+      <img src="assets/img/pipeline.png" alt="Pipeline IoT" class="project-img" />
+      <div class="project-info">
+        <h3>Pipeline de dados IoT com Docker e Python</h3>
+        <p>
+          Pipeline de dados que processa leituras de temperatura de dispositivos IoT,
+          armazena em PostgreSQL e exibe em um dashboard interativo com Streamlit e Plotly.
+        </p>
+        <a href="https://github.com/lucasfelipe01/pipeline_IOT"
+           target="_blank"
+           class="project-link">🔗 Ver no GitHub</a>
       </div>
-    </section>
+    </div>
+
+    <!-- Projeto 2 -->
+    <div class="project-card">
+      <img src="assets/img/COCA.png" alt="Clone Coca-Cola" class="project-img" />
+      <div class="project-info">
+        <h3>Clone da Página Coca-Cola</h3>
+        <p>Pequeno projeto responsivo utilizando apenas HTML & CSS.</p>
+        <a href="https://lucasfelipe01.github.io/clone-CocaCola/"
+           target="_blank"
+           class="project-link">🔗 Acessar Projeto</a>
+      </div>
+    </div>
+
+    <!-- Projeto 3 -->
+    <div class="project-card">
+      <video src="assets/video/clima_video.mp4"
+             autoplay loop muted playsinline
+             class="project-img"></video>
+      <div class="project-info">
+        <h3>Informações do Clima</h3>
+        <p>
+          Projeto desenvolvido para exibir condições climáticas de qualquer
+          local, incluindo imagens e informações detalhadas.
+        </p>
+        <a href="https://lucasfelipe01.github.io/clima-tempo/"
+           target="_blank"
+           class="project-link">🔗 Acessar Projeto</a>
+      </div>
+    </div>
+
+    <!-- Projeto 4 -->
+    <div class="project-card">
+      <img src="assets/img/rick-and-morty.png" alt="Rick and Morty API" class="project-img" />
+      <div class="project-info">
+        <h3>Projeto API-Rick-Morty</h3>
+        <p>
+          Um projeto que consome a API oficial da série Rick and Morty,
+          permitindo buscar e exibir informações de todos os personagens.
+        </p>
+        <a href="https://lucasfelipe01.github.io/API-rick-morty/"
+           target="_blank"
+           class="project-link">🔗 Acessar Projeto</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
     <section id="skills">
       <h2>Habilidades</h2>
@@ -149,38 +179,45 @@
     </section>
 
     <section id="contact">
-      <h2>Contato</h2>
-      <p>
-        <i class="fas fa-envelope"></i> Email:
-        <a href="mailto:lucas_felipe222@hotmail.com"
-          >lucas_felipe222@hotmail.com</a
-        >
-      </p>
-      <p>
-        <i class="fas fa-phone"></i> Telefone:
-        <a href="tel:+5511986758033">(11) 98675-8033</a>
-      </p>
-      <p>
-        <i class="fab fa-linkedin"></i> LinkedIn:
-        <a
-          href="https://www.linkedin.com/in/lucas-felipe-2907hs"
-          target="_blank"
-          >lucas-felipe-2907hs</a
-        >
-      </p>
-      <p>
-        <i class="fab fa-instagram"></i> Instagram:
-        <a href="https://www.instagram.com/lfellipe_ofc" target="_blank"
-          >lfellipe_ofc</a
-        >
-      </p>
-      <p>
-        <i class="fab fa-github"></i> GitHub:
-        <a href="https://github.com/lucasfelipe01" target="_blank"
-          >lucasfelipe01</a
-        >
-      </p>
-    </section>
+  <h2>Contato</h2>
+  <div class="contact-container">
+    <div class="contact-item">
+      <div class="contact-icon">
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="contact-text">
+        Email: <a href="mailto:lucas_felipe222@hotmail.com">lucas_felipe222@hotmail.com</a>
+      </div>
+    </div>
+    
+    <div class="contact-item">
+      <div class="contact-icon">
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <div class="contact-text">
+        LinkedIn: <a href="https://www.linkedin.com/in/lucas-felipe-2907hs" target="_blank">lucas-felipe-2907hs</a>
+      </div>
+    </div>
+    
+    <div class="contact-item">
+      <div class="contact-icon">
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div class="contact-text">
+        Instagram: <a href="https://www.instagram.com/lfellipe_ofc" target="_blank">lfellipe_ofc</a>
+      </div>
+    </div>
+    
+    <div class="contact-item">
+      <div class="contact-icon">
+        <i class="fab fa-github"></i>
+      </div>
+      <div class="contact-text">
+        GitHub: <a href="https://github.com/lucasfelipe01" target="_blank">lucasfelipe01</a>
+      </div>
+    </div>
+  </div>
+</section>
 
     <footer>
       <p>© 2025 Lucas Felipe. Todos os direitos reservados.</p>
