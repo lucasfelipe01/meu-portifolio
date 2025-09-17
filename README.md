@@ -25,8 +25,8 @@ Este portfólio foi desenvolvido com foco em **simplicidade, responsividade e cl
 ### 🔹 Pipeline de Dados IoT com Docker e Python  
 Pipeline que processa leituras de sensores IoT, armazena em **PostgreSQL** e exibe os resultados em um **dashboard interativo** com Streamlit e Plotly.  
 
-### 🔹 Clone da Página Coca-Cola  
-Clone responsivo feito do zero utilizando apenas **HTML & CSS**.  
+### 🔹 Landing Page Treinador Viny  
+Portfólio desenvolvido para personal trainer com foco em **captação de alunos**, integrando botões de ação diretamente ao **WhatsApp**.  
 
 ### 🔹 Informações do Clima  
 Aplicação que busca informações meteorológicas em tempo real, exibindo imagens relacionadas e bandeiras dos países.  
@@ -37,6 +37,7 @@ Aplicação que busca informações meteorológicas em tempo real, exibindo imag
 
 - Desenvolvimento Web (**HTML, CSS, JavaScript**)  
 - Back-end (**Java, SQL, Firebase**)  
+- Programação funcional em Java (**Lambdas e Streams API**)  
 - Integração de APIs  
 - Criação de pipelines de dados  
 - Versionamento de código com **Git/GitHub**  
